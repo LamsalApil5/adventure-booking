@@ -44,7 +44,7 @@ const AdventureCard: React.FC<AdventureCardProps> = ({ adventure }) => {
           <span className="text-lg font-bold">${price.toFixed(2)}</span>
           <Link
             to={`/adventures/${id}`}
-            className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition"
+            className="bg-[#2485af] text-white px-4 py-2 rounded hover:bg-[#247caf] transition"
           >
             View Details
           </Link>

@@ -124,7 +124,7 @@ const ContactPage = () => {
                   <div>
                     <h3 className="font-semibold text-lg mb-1">Our Location</h3>
                     <p className="text-muted-foreground">
-                      123 Adventure Lane, Thrill City, TC 12345
+                      Pokhara, Nepal
                     </p>
                   </div>
                 </div>
@@ -136,10 +136,10 @@ const ContactPage = () => {
                   <div>
                     <h3 className="font-semibold text-lg mb-1">Email Us</h3>
                     <p className="text-muted-foreground">
-                      info@adventurebooking.com
+                      info@thrillnepal.com
                     </p>
                     <p className="text-muted-foreground">
-                      bookings@adventurebooking.com
+                      bookings@thrillnepal.com
                     </p>
                   </div>
                 </div>

@@ -38,7 +38,7 @@ const HomePage = () => {
           <div className="text-center mt-12">
             <Link
               to="/adventures"
-              className="bg-primary text-primary-foreground px-6 py-3 rounded-md font-medium hover:bg-primary/90 transition-colors"
+              className="bg-[#2485af] text-white text-primary-foreground px-6 py-3 rounded-md font-medium hover:bg-primary/90 transition-colors"
             >
               View All Adventures
             </Link>
@@ -109,7 +109,7 @@ const HomePage = () => {
           </p>
           <Link
             to="/adventures"
-            className="bg-background text-foreground px-6 py-3 rounded-md font-medium hover:bg-accent transition-colors"
+            className="bg-[#2485af] text-white text-foreground px-6 py-3 rounded-md font-medium hover:bg-accent transition-colors"
           >
             Book Now
           </Link>
