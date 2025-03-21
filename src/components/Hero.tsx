@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 const Hero = () => {
   return (
-    <div className="relative bg-gray-900 text-white">
+    <div className="relative bg-gray-900 text-white h-screen">
       {/* Hero Image */}
       <div className="absolute inset-0 z-0">
         <img 
@@ -13,7 +13,7 @@ const Hero = () => {
       </div>
       
       {/* Content */}
-      <div className="relative z-10 container mx-auto px-4 py-24 md:py-32 lg:py-40">
+      <div className="relative z-10 flex items-center h-full mx-auto px-8 lg:px-24">
         <div className="max-w-2xl">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
             Discover Your Next Adventure
